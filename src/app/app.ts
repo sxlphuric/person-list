@@ -15,7 +15,6 @@ import { Footer } from "../components/footer/footer";
 })
 export class App {
   protected readonly title = signal("projetC-voiture");
-
   // Create an array of preset people
   people: Person[] = [
     new Person("Martin", 23),
@@ -23,6 +22,7 @@ export class App {
     new Person("Skibidi Mark", 3),
     new Person("Him.", -1),
     new Person("William Smith", 28),
+    new Person("Wemmbu", 19),
   ];
 
   // Create an array of preset cars
@@ -31,6 +31,9 @@ export class App {
     new Car("Honda", "Civic"),
     new Car("Jeep", "Highlander"),
     new Car("Little Tykes", "Kids' Scooter"),
+    new Car("Kamaz", "Typhoon-K"),
+    new Car("Lamborghini", "Huracan"),
+    new Car("Jaguar", "XJR"),
   ];
 
   peopleTable: PersonWithCar[] = [];
