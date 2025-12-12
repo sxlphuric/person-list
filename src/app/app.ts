@@ -23,6 +23,7 @@ export class App {
     new Person("Him.", -1),
     new Person("William Smith", 28),
     new Person("Wemmbu", 19),
+    new Person("Stalin", 74),
   ];
 
   // Create an array of preset cars
