@@ -34,6 +34,7 @@ export class App {
     new Car("Kamaz", "Typhoon-K"),
     new Car("Lamborghini", "Huracan"),
     new Car("Jaguar", "XJR"),
+    new Car("Airbus", "A350"),
   ];
 
   peopleTable: PersonWithCar[] = [];
